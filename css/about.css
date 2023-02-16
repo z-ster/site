@@ -1,0 +1,26 @@
+.active {
+  color: #f51659;
+}
+
+.active::before {
+  display: none;
+}
+
+main {
+  margin: 20px 0;
+}
+
+.title {
+  color: #9d0071;
+  text-align: center;
+}
+
+.about {
+  margin: 0 auto;
+  width: 90%;
+
+}
+
+.text-about {
+  font-size: 20px;
+}

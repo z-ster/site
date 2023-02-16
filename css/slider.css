@@ -1,0 +1,25 @@
+.slider-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.slide {
+  height: 600px;
+  width: auto;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  user-select: none;
+}
+
+.slider-imgs {
+  text-align: center;
+  width: 50%;
+  height: 650px;
+  margin: 20px auto;
+  align-items: center;
+}

@@ -1,0 +1,89 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 300px;
+}
+
+.product {
+  display: grid;
+  grid-gap: 50px;
+  grid-template-areas: "ctrl img name"
+                       "ctrl img description"
+                       "ctrl img sizes"
+                       "ctrl img btn"
+                       "info info info";
+}
+
+.slider-ctrl-1 {
+  grid-area: ctrl;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  grid-gap: 20px;
+}
+
+.btn-ctrl {
+  background: none;
+  border: none;
+}
+
+.ctrl-img {
+  max-width:100px;
+  min-width: 50px;
+  height: auto;
+}
+
+
+
+.slider {
+  grid-area: img;
+}
+
+.img {
+  width: 600px;
+  height: auto;
+  min-width: 300px;
+}
+
+.name {
+  grid-area: name;
+}
+
+.description {
+  grid-area: description;
+  font-size: 22px;
+}
+
+.sizes {
+  grid-area: sizes;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.size {
+  border: 1px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+  line-height: 100%;
+  text-align: center;
+}
+
+.size:hover {
+  border: 1px solid #9d0071;
+  color: #9d0071;
+}
+
+.btn {
+  grid-area: btn;
+  background: #fff;
+  border-radius: 10px;
+  width: 250px;
+  height: 50px;
+}
+
+.product-info {
+  grid-area: info;
+}
+
+/*///////////////////////////////////////*/

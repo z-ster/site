@@ -1,0 +1,54 @@
+.active {
+  color: #f51659;
+}
+
+.active::before {
+  display: none;
+}
+
+form {
+
+}
+
+.title-form {
+  text-align: center;
+}
+
+.form {
+  width: 17vw;
+  height: 40vh;
+  margin: 30px auto;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+}
+
+.content-form {
+  width: 90%;
+  margin: 40px;
+}
+
+.input {
+  width: 75%;
+  margin-top: 7px;
+}
+
+.links-form {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 35%;
+  column-gap: 20px;
+  row-gap: 10px;
+}
+
+.data {
+  margin-top: 30px;
+}
+
+.submit  {
+  margin-top: 0;
+}
+
+.submit-reg  {
+  margin-top: 15px;
+}
